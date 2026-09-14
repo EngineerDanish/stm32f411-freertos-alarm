@@ -1,0 +1,13 @@
+*.ld linguist-vendored
+*.s linguist-vendored
+Core/Src/adc.c linguist-generated
+Core/Src/gpio.c linguist-generated
+Core/Src/usart.c linguist-generated
+Core/Src/main.c linguist-generated
+Core/Src/stm32f4xx_it.c linguist-generated
+Core/Src/stm32f4xx_hal_msp.c linguist-generated
+Core/Src/system_stm32f4xx.c linguist-generated
+Core/Src/syscalls.c linguist-generated
+Core/Src/sysmem.c linguist-generated
+Core/Src/stm32f4xx_hal_timebase_tim.c linguist-generated
+
