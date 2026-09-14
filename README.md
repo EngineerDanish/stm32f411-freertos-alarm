@@ -151,3 +151,11 @@ external hardware.
 - `HAL_UART_Transmit` is blocking. At 115200 with short lines this is
   acceptable in the lowest priority task, but an interrupt or DMA driven
   transmit would be the right choice if the console load grew.
+
+
+
+## Note
+
+- The CubeMX-generated HAL drivers and FreeRTOS sources are not committed.
+  Open the .ioc in STM32CubeIDE and generate code to populate Drivers/ and
+  Middlewares/ before building.
