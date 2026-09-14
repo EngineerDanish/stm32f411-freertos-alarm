@@ -10,3 +10,6 @@ Release/
 *.list
 .settings/
 .metadata/
+Drivers/
+Middlewares/
+*.launch
